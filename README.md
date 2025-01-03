@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Emotion Recognition System with Adaptive User Interface
 
 ## Project Overview
@@ -48,3 +49,6 @@ Upload the image from the `dataset` directory and see the prediction results.
 * **dataset**
     * This directory contains sample test images for each class(2 images per class). This can be used while code execution(both jupyter notebook and run.py file)
 
+=======
+# Understanding-Employment-Trends-in-NYC-Job-Postings
+>>>>>>> 3df7368da32c8d1154ed60e490a75b682d75cb7a
