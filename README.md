@@ -1,54 +1,51 @@
-<<<<<<< HEAD
-# Emotion Recognition System with Adaptive User Interface
+# Understanding Employment Trends in NYC Job Postings
 
 ## Project Overview
 
-This repository contains the code and resources for the "Final Project" in the ECE 5831 course. 
+### Background
+In urban locations, particularly in places like New York, the job market encounters numerous obstacles,
+including disparities in compensation, differences in demand for job roles, and the effect of residency regulations on employment openings. These elements may cause hiring procedures to be inefficient and deter job
+seekers from pursuing their ideal positions.
 
-The project focuses on to dvelop an emotion recognition system that accurately classifies facial expressions into seven categories and integrates a dynamic, adaptive user interface to enhance human-computer interaction. It includes key aspects like model development, data processing, and interactive visualization. 
+Understanding these processes is crucial for policymakers and other stakeholders to address such workforce
+gaps and enhance employment outcomes. They can make decisions and implement targeted interventions
+by analyzing patterns and correlations in job posts to spot problems in real-time.
 
-This project uses FER-2013 [dataset](https://www.kaggle.com/datasets/msambare/fer2013)  that contains facial images (grayscale JPEG file with a size of 48x48 pixels.) classified into seven emotion categories:` Angry`, `Disgust`, `Fear`, `Happy`, `Neutral`, `Sad`, and `Surprise`. 
+This is a data analysis and visualization project that deals with large scale data, addressess the below research questions and identifies the hidden patterns.
+
+### Research Questions Addressed
+1. Do different populations within similar job titles have observable salary differences?
+2. What are the main wage distinctions between competitive job postings and those that are not?
+3. Do residency requirements make some organizations more likely to have open positions?
+4. Does the demography that is drawn to external postings differ from that of internal postings?
 
 
 ## Technologies Used:
 - Python
-- Tkinter - for GUI creation (file dialogs and interface components).
-- PIL (Pillow) - for image processing and manipulation.
-- OpenCV - for image handling and pre-processing.
-- TensorFlow & Keras - for building and training deep learning models.
-- NumPy - for numerical operations and array handling.
-- Matplotlib & Seaborn - for data visualization (plots, confusion matrix).
-- Scikit-learn - for evaluation metrics like confusion matrix and classification report
+- Pandas: For data manipulation and analysis, particularly with structured datasets.
+- NumPy: For numerical computations and array operations.
+- Matplotlib: For creating data visualizations and plots.
+- Seaborn: For advanced data visualization and statistical plotting.
+- scikit-learn:
+   - Machine Learning Models: RandomForestClassifier, LinearRegression, LogisticRegression, Ridge, Lasso.
+   - Data Preprocessing: LabelEncoder, StandardScaler, TfidfVectorizer.
+   - Evaluation Metrics: Classification report, confusion matrix, silhouette score, ROC curve, AUC, precision-recall curve.
+   - Model Selection: GridSearchCV, cross_val_score, train_test_split, KFold.
+- SHAP: For model explainability and feature importance analysis.
+- Statsmodels: For statistical modeling and hypothesis testing.
+- Tabulate: For formatting and displaying tabular data.
+- KMeans (scikit-learn): For clustering and unsupervised learning tasks.
 
 
 ## Resources
 
 Here are the relevant links for the project:
 
-- **[Presentation Slides](Presentation-Slides.pptx.pdf)**: Slides used during the presentation summarizing the project work and key findings.
-- **[Project Report](Project_Report.pdf)**: A detailed report describing the technical aspects of the project, the methods employed, and results obtained.
-- **[Dataset](https://drive.google.com/drive/folders/13l-hbD04MyyVuNdMY7zn0aQXTCq7yCDs?usp=drive_link)**: The FER-2013 dataset used for this project.
-- **[Demo Video](https://youtu.be/Bn2F2MgZJJE?si=pQTqJKkPE8lSb6q0)**: A demo showcasing the functionality and features of the developed application.
+- **[Presentation Slides](Presentation_Slides.pdf)**: Slides used during the presentation summarizing the project work,methods used and key findings.
+- **[Project Poster](Project_Report.pdf)**: A brief overview describing the methods employed, and results obtained.
+- **[Dataset](Jobs_NYC_Postings.csv)**: The NYC Job Postings dataset used for this project.
 
 ## Repository Structure
 
-* **final-project.ipynb:**
+* **Understanding Employment Trends in NYC Job Postings.ipynb:**
     * Contains jupyter notebook code for the complete project with output.
-* **best_model.keras:**
-    * This is the saved keras model after training.
-* **run.py:**
-    * This script is used to launch the adaptive UI, upload a test image, and perform predictions. The saved CNN model is loaded within the script, and upon uploading an image, the prediction results are displayed on the UI. Test images for upload can be selected from the dataset directory available in the GitHub repository.
-
-To execute this file, use the following command:
-
-```bash
-    python run.py
-```
-Upload the image from the `dataset` directory and see the prediction results.
-
-* **dataset**
-    * This directory contains sample test images for each class(2 images per class). This can be used while code execution(both jupyter notebook and run.py file)
-
-=======
-# Understanding-Employment-Trends-in-NYC-Job-Postings
->>>>>>> 3df7368da32c8d1154ed60e490a75b682d75cb7a
