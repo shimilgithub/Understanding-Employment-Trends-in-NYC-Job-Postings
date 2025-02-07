@@ -1,4 +1,4 @@
-# Understanding Employment Trends in NYC Job Postings
+# Understanding Employment Trends in NYC Job Postings(Domain : People Analytics)
 
 ## Project Overview
 
@@ -25,6 +25,7 @@ This is a data analysis and visualization project that deals with large scale da
 - Pandas: For data manipulation and analysis, particularly with structured datasets.
 - NumPy: For numerical computations and array operations.
 - Matplotlib: For creating data visualizations and plots.
+- Statistical Analysis(ANOVA, F-test, t-test, chi-square) with minitab and Python libraries
 - Seaborn: For advanced data visualization and statistical plotting.
 - scikit-learn:
    - Machine Learning Models: RandomForestClassifier, LinearRegression, LogisticRegression, Ridge, Lasso.
